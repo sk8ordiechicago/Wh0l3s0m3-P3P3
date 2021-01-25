@@ -172,5 +172,5 @@ const stfu = ["simp", "SIMP", "s1mp", "S1MP"];
 if( stfu.some(word => msg.content.includes(word)) ) {    msg.reply("lolllll no s i m p i n g welcome here");
       }
 });
-client.login("Nzk4NTcxMDEyMjQ0NTA0NTk2.X_29Ng.ZmpFi-1vAiUGjzVJukKjjZjcWdA");
+client.login(process.env.BOT_TOKEN);
 
